@@ -24,9 +24,7 @@
 }
 
 .timer-container{
-    /* width: 300px;
-    height: 180px;
-    backdrop-filter:blur(150px); */
+    font-size: 80px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -38,4 +36,11 @@
     z-index: 2;
     color: #fff;   
     
+}
+
+
+@media (max-width : 897px) {
+    .timer-container{
+        font-size: 40px;
+    }   
 }
